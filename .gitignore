@@ -1,0 +1,14 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+mlruns/
+data/processed/*.csv
+models/*.pkl
+*.log
