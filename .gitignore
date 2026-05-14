@@ -12,3 +12,4 @@ mlruns/
 data/processed/*.csv
 models/*.pkl
 *.log
+Sentinel-RAG/

@@ -1,0 +1,147 @@
+[
+  {
+    "id": "part_AMAT-CMP-4100-PAD",
+    "text": "Part AMAT-CMP-4100-PAD is a service_campaign-type semiconductor component primarily serving the North America region.\n\nDemand profile: Average daily demand is 10.6 units (range: 3 to 23 units). Total demand over the observation period (2015-01-01 to 2015-01-30) was 1894 units. The demand shows moderate volatility.\n\nRecent trend: Demand is stable (-4.0% change, last 7 days vs previous 7 days). The 7-day rolling average demand is 10.5 units with rolling standard deviation of 3.2.\n\nForecast accuracy: XGBoost forecast achieves MAE of N/A units and MAPE of N/A%. Unit cost is $20.04.\n\nNPI signals: 51 out of 179 days had NPI or event signals (28.5% of days).\n\nStockout risk assessment: LOW \u2014 demand is stable and predictable.\n\nRecommendation: Maintain current stock levels. Demand is predictable.",
+    "metadata": {
+      "part_number": "AMAT-CMP-4100-PAD",
+      "demand_type": "service_campaign",
+      "region": "North America",
+      "avg_demand": 10.6,
+      "trend": "stable",
+      "stockout_risk": "LOW",
+      "source": "part_profile"
+    }
+  },
+  {
+    "id": "part_AMAT-CMP-4100-SLURRY",
+    "text": "Part AMAT-CMP-4100-SLURRY is a service_campaign-type semiconductor component primarily serving the North America region.\n\nDemand profile: Average daily demand is 10.8 units (range: 3 to 23 units). Total demand over the observation period (2015-01-01 to 2015-01-30) was 1942 units. The demand shows moderate volatility.\n\nRecent trend: Demand is increasing (+8.7% change, last 7 days vs previous 7 days). The 7-day rolling average demand is 10.7 units with rolling standard deviation of 3.4.\n\nForecast accuracy: XGBoost forecast achieves MAE of N/A units and MAPE of N/A%. Unit cost is $28.34.\n\nNPI signals: 55 out of 179 days had NPI or event signals (30.7% of days).\n\nStockout risk assessment: MODERATE \u2014 demand is increasing but forecasts are reasonably accurate.\n\nRecommendation: Increase safety stock by 10% due to rising demand or volatility.",
+    "metadata": {
+      "part_number": "AMAT-CMP-4100-SLURRY",
+      "demand_type": "service_campaign",
+      "region": "North America",
+      "avg_demand": 10.8,
+      "trend": "increasing",
+      "stockout_risk": "MODERATE",
+      "source": "part_profile"
+    }
+  },
+  {
+    "id": "part_AMAT-CVD-3200-SEAL",
+    "text": "Part AMAT-CVD-3200-SEAL is a standard-type semiconductor component primarily serving the North America region.\n\nDemand profile: Average daily demand is 13.2 units (range: 4 to 27 units). Total demand over the observation period (2015-01-01 to 2015-01-30) was 2370 units. The demand shows moderate volatility.\n\nRecent trend: Demand is increasing (+28.0% change, last 7 days vs previous 7 days). The 7-day rolling average demand is 13.2 units with rolling standard deviation of 3.9.\n\nForecast accuracy: XGBoost forecast achieves MAE of N/A units and MAPE of N/A%. Unit cost is $35.05.\n\nNPI signals: 50 out of 179 days had NPI or event signals (27.9% of days).\n\nStockout risk assessment: MODERATE \u2014 demand is increasing but forecasts are reasonably accurate.\n\nRecommendation: Increase safety stock by 10% due to rising demand or volatility.",
+    "metadata": {
+      "part_number": "AMAT-CVD-3200-SEAL",
+      "demand_type": "standard",
+      "region": "North America",
+      "avg_demand": 13.2,
+      "trend": "increasing",
+      "stockout_risk": "MODERATE",
+      "source": "part_profile"
+    }
+  },
+  {
+    "id": "part_AMAT-CVD-3200-VALVE",
+    "text": "Part AMAT-CVD-3200-VALVE is a standard-type semiconductor component primarily serving the North America region.\n\nDemand profile: Average daily demand is 13.0 units (range: 4 to 29 units). Total demand over the observation period (2015-01-01 to 2015-01-30) was 2327 units. The demand shows moderate volatility.\n\nRecent trend: Demand is decreasing (-9.8% change, last 7 days vs previous 7 days). The 7-day rolling average demand is 13.1 units with rolling standard deviation of 3.8.\n\nForecast accuracy: XGBoost forecast achieves MAE of N/A units and MAPE of N/A%. Unit cost is $38.55.\n\nNPI signals: 58 out of 179 days had NPI or event signals (32.4% of days).\n\nStockout risk assessment: LOW \u2014 demand is stable and predictable.\n\nRecommendation: Maintain current stock levels. Demand is predictable.",
+    "metadata": {
+      "part_number": "AMAT-CVD-3200-VALVE",
+      "demand_type": "standard",
+      "region": "North America",
+      "avg_demand": 13.0,
+      "trend": "decreasing",
+      "stockout_risk": "LOW",
+      "source": "part_profile"
+    }
+  },
+  {
+    "id": "part_AMAT-ETCH-6600-RING",
+    "text": "Part AMAT-ETCH-6600-RING is a reliability-type semiconductor component primarily serving the North America region.\n\nDemand profile: Average daily demand is 8.5 units (range: 2 to 18 units). Total demand over the observation period (2015-01-01 to 2015-01-30) was 1519 units. The demand shows moderate volatility.\n\nRecent trend: Demand is stable (+0.0% change, last 7 days vs previous 7 days). The 7-day rolling average demand is 8.4 units with rolling standard deviation of 3.0.\n\nForecast accuracy: XGBoost forecast achieves MAE of N/A units and MAPE of N/A%. Unit cost is $19.52.\n\nNPI signals: 57 out of 179 days had NPI or event signals (31.8% of days).\n\nStockout risk assessment: LOW \u2014 demand is stable and predictable.\n\nRecommendation: Maintain current stock levels. Demand is predictable.",
+    "metadata": {
+      "part_number": "AMAT-ETCH-6600-RING",
+      "demand_type": "reliability",
+      "region": "North America",
+      "avg_demand": 8.5,
+      "trend": "stable",
+      "stockout_risk": "LOW",
+      "source": "part_profile"
+    }
+  },
+  {
+    "id": "part_AMAT-LITH-5500-ALIGN",
+    "text": "Part AMAT-LITH-5500-ALIGN is a NPI-type semiconductor component primarily serving the North America region.\n\nDemand profile: Average daily demand is 5.4 units (range: 0 to 14 units). Total demand over the observation period (2015-01-01 to 2015-01-30) was 968 units. The demand shows moderate volatility.\n\nRecent trend: Demand is decreasing (-23.3% change, last 7 days vs previous 7 days). The 7-day rolling average demand is 5.4 units with rolling standard deviation of 2.5.\n\nForecast accuracy: XGBoost forecast achieves MAE of N/A units and MAPE of N/A%. Unit cost is $40.41.\n\nNPI signals: 49 out of 179 days had NPI or event signals (27.4% of days).\n\nStockout risk assessment: LOW \u2014 demand is stable and predictable.\n\nRecommendation: Maintain current stock levels. Demand is predictable.",
+    "metadata": {
+      "part_number": "AMAT-LITH-5500-ALIGN",
+      "demand_type": "NPI",
+      "region": "North America",
+      "avg_demand": 5.4,
+      "trend": "decreasing",
+      "stockout_risk": "LOW",
+      "source": "part_profile"
+    }
+  },
+  {
+    "id": "part_AMAT-RF-7800-CTRL",
+    "text": "Part AMAT-RF-7800-CTRL is a NPI-type semiconductor component primarily serving the North America region.\n\nDemand profile: Average daily demand is 5.1 units (range: 0 to 11 units). Total demand over the observation period (2015-01-01 to 2015-01-30) was 910 units. The demand shows moderate volatility.\n\nRecent trend: Demand is decreasing (-25.5% change, last 7 days vs previous 7 days). The 7-day rolling average demand is 5.1 units with rolling standard deviation of 2.2.\n\nForecast accuracy: XGBoost forecast achieves MAE of 3.05 units and MAPE of 42.9%. Unit cost is $25.59.\n\nNPI signals: 50 out of 179 days had NPI or event signals (27.9% of days).\n\nStockout risk assessment: LOW \u2014 demand is stable and predictable.\n\nRecommendation: Maintain current stock levels. Demand is predictable.",
+    "metadata": {
+      "part_number": "AMAT-RF-7800-CTRL",
+      "demand_type": "NPI",
+      "region": "North America",
+      "avg_demand": 5.1,
+      "trend": "decreasing",
+      "stockout_risk": "LOW",
+      "source": "part_profile"
+    }
+  },
+  {
+    "id": "part_AMAT-RF-7800-GEN",
+    "text": "Part AMAT-RF-7800-GEN is a NPI-type semiconductor component primarily serving the North America region.\n\nDemand profile: Average daily demand is 5.4 units (range: 0 to 12 units). Total demand over the observation period (2015-01-01 to 2015-01-30) was 973 units. The demand shows moderate volatility.\n\nRecent trend: Demand is decreasing (-18.4% change, last 7 days vs previous 7 days). The 7-day rolling average demand is 5.4 units with rolling standard deviation of 2.3.\n\nForecast accuracy: XGBoost forecast achieves MAE of 2.6 units and MAPE of 44.0%. Unit cost is $24.13.\n\nNPI signals: 47 out of 179 days had NPI or event signals (26.3% of days).\n\nStockout risk assessment: LOW \u2014 demand is stable and predictable.\n\nRecommendation: Maintain current stock levels. Demand is predictable.",
+    "metadata": {
+      "part_number": "AMAT-RF-7800-GEN",
+      "demand_type": "NPI",
+      "region": "North America",
+      "avg_demand": 5.4,
+      "trend": "decreasing",
+      "stockout_risk": "LOW",
+      "source": "part_profile"
+    }
+  },
+  {
+    "id": "model_comparison_summary",
+    "text": "Model comparison results for demand forecasting:\n\n- XGBoost: MAE = 2.77 units, RMSE = 3.47 units, MAPE = 43.6%\n- ARIMA: MAE = 3.55 units, RMSE = 4.46 units, MAPE = 55.7%\n- Naive (lag_1): MAE = 3.54 units, RMSE = 4.46 units, MAPE = 49.2%\n\nBest performing model: XGBoost with MAE of 2.77 units.\n\nThe XGBoost model outperformed the naive baseline (predict tomorrow = today) by approximately 22% on MAE. This demonstrates that the model learned genuine demand patterns beyond simple repetition.\n\nTop predictive features: rolling_mean_14 (25.2% importance), rolling_mean_7 (17.0%), demand_type (12.5%). This confirms that recent demand trends and part category are the strongest drivers of future demand.",
+    "metadata": {
+      "source": "model_summary",
+      "best_model": "XGBoost",
+      "best_mae": 2.77
+    }
+  },
+  {
+    "id": "demand_type_NPI",
+    "text": "Demand type: NPI (New Product Introduction)\n\nNPI parts are components for newly launched semiconductor equipment. Demand pattern is characterized by sudden spikes when a new product is announced, followed by gradual stabilization. NPI demand is the hardest to predict (highest MAPE) due to its volatile, event-driven nature. Safety stock should be 20-30% above average to buffer against forecast uncertainty. Example parts: AMAT-RF-7800-GEN (RF generator), AMAT-LITH-5500-ALIGN (lithography alignment sensor).",
+    "metadata": {
+      "source": "domain_knowledge",
+      "demand_type": "NPI"
+    }
+  },
+  {
+    "id": "demand_type_standard",
+    "text": "Demand type: standard (Standard replacement parts)\n\nStandard parts are routine replacement components that factories consistently need. Demand pattern is steady and predictable with low variance. These parts have the lowest MAPE (best forecast accuracy). Safety stock can be minimal (5-10% above average) since demand is reliable. Example parts: AMAT-CVD-3200-VALVE (gas delivery valve), AMAT-CVD-3200-SEAL (chamber seal ring).",
+    "metadata": {
+      "source": "domain_knowledge",
+      "demand_type": "standard"
+    }
+  },
+  {
+    "id": "demand_type_service_campaign",
+    "text": "Demand type: service_campaign (Service campaign and warranty parts)\n\nService campaign parts see demand spikes during product recalls, warranty programs, or field upgrade campaigns. Demand pattern shows sharp spikes when a campaign launches, then drops back to baseline when the campaign ends. Forecast accuracy is moderate. Safety stock should be increased 2-4 weeks before a planned campaign. Example parts: AMAT-CMP-4100-PAD (polishing pad), AMAT-CMP-4100-SLURRY (slurry pump).",
+    "metadata": {
+      "source": "domain_knowledge",
+      "demand_type": "service_campaign"
+    }
+  },
+  {
+    "id": "demand_type_reliability",
+    "text": "Demand type: reliability (Reliability and wear parts)\n\nReliability parts are components that degrade over time through normal use. Demand pattern shows gradual, steady increase as the installed base of equipment ages. These parts are moderately predictable. Safety stock should increase proportionally with the installed base growth rate. Example: AMAT-ETCH-6600-RING (etch chamber focus ring that wears out).",
+    "metadata": {
+      "source": "domain_knowledge",
+      "demand_type": "reliability"
+    }
+  }
+]
