@@ -1,0 +1,50 @@
+# ================================================================
+# DOCKER-COMPOSE.YML - Orchestrate multiple containers
+# ================================================================
+#
+# WHAT IS DOCKER COMPOSE? (like you're 10)
+#   Docker runs ONE box. Docker Compose runs MULTIPLE boxes
+#   that talk to each other. Like setting up a whole classroom
+#   instead of just one desk.
+#
+#   We have two services:
+#   1. api — the FastAPI server (port 8000)
+#   2. dashboard — the Streamlit app (port 8501)
+#
+# HOW TO USE:
+#   docker-compose up --build
+#   Then open:
+#     API docs:   http://localhost:8000/docs
+#     Dashboard:  http://localhost:8501
+
+version: "3.8"
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    command: uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --reload
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    command: streamlit run streamlit_app.py --server.port 8501 --server.address 0.0.0.0
+    depends_on:
+      - api
